@@ -114,6 +114,11 @@
       super();
       this.hasBeenConnected = false;
       Object.assign(this, window.HAXBehaviors.PropertiesBehaviors);
+      this.properties.colorCode = {
+        type: String,
+        value: '#fff9c4',
+        observer: '_bgColorChanged',
+      };
     }
     connectedCallback() {
       this.hasBeenConnected = true;
