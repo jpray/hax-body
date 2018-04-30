@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
     <title>hax-body demo</title>
+
+    <link rel="stylesheet" href="https://cdn.voya.com/global/deep-ui/2.x/deep-ui-core.css" media="all">
+    <link rel="stylesheet" href="https://cdn.voya.com/global/deep-ui/2.x/voya-content.css" media="all">
+    <link rel="stylesheet" href="https://cdn.voya.com/global/deep-ui/2.x/voya-button.css" media="all">
+
+    <script src="https://cdn.voya.com/global/deep-ui/2.x/deep-ui-polyfills.js"></script>
+    <script src='../jspm_packages/system.js'></script><!-- required -->
+    <script src='../jspm.config.js'></script><!-- required -->
+
+
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <script>
       /* this script must run before Polymer is imported */
@@ -231,6 +241,13 @@ as if we even have a product anyway. We're just trying to fundamentally transfor
     <video-player source="https://www.youtube.com/watch?v=zq8pt4dyDiw" width="560" height="315" caption="This isn't just an iFrame, it's a web component!" responsive secondary-color-class="cyan darken-4"></video-player>
   </template>
 </code-editor>
+
+        <voya-content
+          type="TEASER_LARGE"
+          topic="ARTICLE_MANAGE_DEBT_AND_HAVE_FUN"
+          cms-base-url="https://resourcecenter.unit.voya.com/">
+        </voya-content>
+
         </hax-body>
         <hax-autoloader hidden></hax-autoloader>
         <hax-panel align="left"></hax-panel>
@@ -239,5 +256,8 @@ as if we even have a product anyway. We're just trying to fundamentally transfor
         <hax-app-picker></hax-app-picker>
       </template>
     </div>
+    <script type="text/javascript">
+      System.import('voya-content');
+    </script>
   </body>
 </html>
