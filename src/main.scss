@@ -1,0 +1,7 @@
+$fa-font-path: "/myvoya/static/public/fonts/font-awesome";
+@import "jspm:voya-base-styles/scss/voya-base";
+$ProximaPath: "/myvoya/static/public/fonts/proxima";
+@include voya-fonts-proxima($ProximaPath);
+@import "jspm:font-awesome/scss/font-awesome";
+@import "jspm:voya-button/voya-button";
+@import "jspm:voya-content/voya-content";

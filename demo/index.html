@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
     <title>hax-body demo</title>
 
-    <link rel="stylesheet" href="https://cdn.voya.com/global/deep-ui/2.x/deep-ui-core.css" media="all">
-    <link rel="stylesheet" href="https://cdn.voya.com/global/deep-ui/2.x/voya-content.css" media="all">
-    <link rel="stylesheet" href="https://cdn.voya.com/global/deep-ui/2.x/voya-button.css" media="all">
-
     <script src="https://cdn.voya.com/global/deep-ui/2.x/deep-ui-polyfills.js"></script>
+
+    <link rel="stylesheet" href="../src/main.css" media="all">
+
     <script src='../jspm_packages/system.js'></script><!-- required -->
     <script src='../jspm.config.js'></script><!-- required -->
 
@@ -247,6 +246,10 @@ as if we even have a product anyway. We're just trying to fundamentally transfor
           topic="ARTICLE_MANAGE_DEBT_AND_HAVE_FUN"
           cms-base-url="https://resourcecenter.unit.voya.com/">
         </voya-content>
+        <voya-button
+          text="test">
+        </voya-button>
+
 
         </hax-body>
         <hax-autoloader hidden></hax-autoloader>
@@ -257,6 +260,7 @@ as if we even have a product anyway. We're just trying to fundamentally transfor
       </template>
     </div>
     <script type="text/javascript">
+      System.import('voya-button');
       System.import('voya-content');
     </script>
   </body>

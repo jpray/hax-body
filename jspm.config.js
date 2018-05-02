@@ -54,6 +54,7 @@ SystemJS.config({
         "dlv": "npm:dlv@1.1.1",
         "dom-delegate": "npm:dom-delegate@2.0.3",
         "events": "npm:jspm-nodelibs-events@0.2.2",
+        "font-awesome": "npm:font-awesome@4.7.0",
         "fs": "npm:jspm-nodelibs-fs@0.2.1",
         "os": "npm:jspm-nodelibs-os@0.2.2",
         "path": "npm:jspm-nodelibs-path@0.2.3",
@@ -64,7 +65,7 @@ SystemJS.config({
         "util": "npm:jspm-nodelibs-util@0.2.2",
         "vm": "npm:jspm-nodelibs-vm@0.2.1",
         "voya-base-styles": "voya-github:Voya/deep-ui-voya-base-styles@2.7.2",
-        "voya-button": "voya-github:Voya/deep-ui-voya-button@5.4.3",
+        "voya-button": "voya-github:Voya/deep-ui-voya-button@hax",
         "voya-component-utils": "voya-github:Voya/deep-ui-voya-component-utils@3.5.4",
         "voya-content": "voya-github:i702118/deep-ui-voya-content@hax",
         "voya-expand-collapse": "voya-github:Voya/deep-ui-voya-expand-collapse@2.4.0",
@@ -150,7 +151,7 @@ SystemJS.config({
                 "chalk": "npm:chalk@1.1.3"
             }
         },
-        "voya-github:Voya/deep-ui-voya-button@5.4.3": {
+        "voya-github:Voya/deep-ui-voya-button@hax": {
             "map": {
                 "dom-delegate": "npm:dom-delegate@2.0.3",
                 "voya-base-styles": "voya-github:Voya/deep-ui-voya-base-styles@2.7.2",
@@ -176,7 +177,7 @@ SystemJS.config({
             "map": {
                 "dom-delegate": "npm:dom-delegate@2.0.3",
                 "voya-base-styles": "voya-github:Voya/deep-ui-voya-base-styles@2.7.2",
-                "voya-button": "voya-github:Voya/deep-ui-voya-button@5.4.3",
+                "voya-button": "voya-github:Voya/deep-ui-voya-button@hax",
                 "voya-component-utils": "voya-github:Voya/deep-ui-voya-component-utils@3.5.4",
                 "http-client": "voya-github:Voya/deep-ui-http-client@0.4.1",
                 "voya-modal": "voya-github:Voya/deep-ui-voya-modal@2.1.0",
@@ -515,6 +516,11 @@ SystemJS.config({
             "map": {
                 "inherits": "npm:inherits@2.0.3",
                 "minimalistic-assert": "npm:minimalistic-assert@1.0.1"
+            }
+        },
+        "npm:font-awesome@4.7.0": {
+            "map": {
+                "css": "github:systemjs/plugin-css@0.1.37"
             }
         }
     }
