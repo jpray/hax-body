@@ -989,6 +989,9 @@
     }
   ],
   "autoloader": [
+    "q-r",
+    "self-check",
+    "tab-list",
     "multiple-choice",
     "oer-schema",
     "hero-banner",
